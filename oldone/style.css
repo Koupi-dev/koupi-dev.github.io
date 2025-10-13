@@ -7,7 +7,7 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   background-size: cover;
-  background-image: url(imgs/background.png); 
+  background-image: url(.imgs/background.png); 
   background-size: cover;
   background-attachment: fixed;
   scroll-behavior: smooth;
@@ -209,3 +209,4 @@ footer {
   display: flex; align-items: center;
 
 }
+
