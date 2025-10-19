@@ -9,7 +9,6 @@
 body {
     font-family: 'minecraft', sans-serif;
     text-shadow: 2px 2px 0px black;
-    background-image: url(./assets/background.png);
     color: rgb(216, 216, 216);
 }
 
@@ -27,16 +26,20 @@ section {
     border-bottom: whitesmoke;
 }
 
-.background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-    filter: blur(15px) brightness(0.55);
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/background.png);
+  background-size: cover;
+  background-position: center;
+  filter: blur(15px) brightness(0.55);
+  z-index: -1;
 }
+
+
 
 .a {
     flex-direction: column;
@@ -290,3 +293,4 @@ header {
   top: 0;
 
 }
+
