@@ -9,7 +9,7 @@
 body {
     font-family: 'minecraft', sans-serif;
     text-shadow: 2px 2px 0px black;
-    background-image: url(assets/background.mp4);
+    background-image: url(./assets/background.png);
     color: rgb(216, 216, 216);
 }
 
@@ -288,4 +288,5 @@ html {
 header {
   position: sticky;
   top: 0;
+
 }
